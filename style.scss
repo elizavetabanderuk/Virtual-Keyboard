@@ -1,0 +1,95 @@
+.windowMain {
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title {
+    color: #E63946;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 48px;
+    margin: 0;
+}
+
+.textContainer {
+    width: 990px;
+    height: 20%;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #1D3557;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D3557;
+    text-align: justify;
+}
+
+.keyboardContainer {
+    width: 990px;
+    height: 340px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #1D3557;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    background-color: #F1FAEE;
+}
+
+.description {
+    color: #1D3557;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #457B9D;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #F1FAEE;
+    text-align: center;
+    border: none;
+}
+
+.key:hover,
+.key.long:hover,
+.key.dark:hover,
+.key.space:hover {
+    background-color: #E63946;
+}
+
+.key.long {
+    width: 115px;
+    background-color: #1D3557;
+}
+
+.key.dark {
+    background-color: #1D3557;
+}
+
+.key.space {
+    width: 440px;
+}
